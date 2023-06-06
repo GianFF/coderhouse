@@ -14,6 +14,8 @@ class Animal {
    * @returns the interspersed phrase.
    */
   speak(phrase) {
+    // TODO: add boder cases
+
     return phrase.split(' ') // ['Lions', 'suck']
       .map((word) => `${word} ${this.animalSound}`) // ['Lions grrr', 'suck grrr']
       .join(' '); // 'Lions grrr' + ' ' + 'suck grrr'

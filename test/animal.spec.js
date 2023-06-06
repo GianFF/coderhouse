@@ -21,11 +21,11 @@ describe('Anmial', () => {
     });
   
     test('given an empty phrase, they do not say anything', () => {
-      expect(kitten.speak('')).toEqual('');
+      expect(false).toEqual(true);
     });
 
     test('given no phrase, they do not say anything', () => {
-      expect(kitten.speak()).toEqual('');
+      expect(false).toEqual(true);
     });
 
     test('given a blank phrase, they repeat their animal sound', () => {
