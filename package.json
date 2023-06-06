@@ -1,0 +1,14 @@
+{
+  "name": "unit-testing-ejemplo",
+  "version": "1.0.0",
+  "description": "Ejemplo de Unit Testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --collectCoverage"
+  },
+  "author": "Gian Franco Fioriello",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
